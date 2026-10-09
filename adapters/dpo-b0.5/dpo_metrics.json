@@ -1,0 +1,18 @@
+{
+  "compute_tier": "T4",
+  "base_model": "unsloth/Qwen3-4B-Instruct-2507-unsloth-bnb-4bit",
+  "beta": 0.5,
+  "lr": 5e-06,
+  "loss_type": [
+    "sigmoid"
+  ],
+  "final_train_loss": 0.6302399468421936,
+  "end_chosen_reward": 1.7276116371154786,
+  "end_rejected_reward": 1.2883691787719727,
+  "end_reward_gap": 0.43924245834350584,
+  "eval_chosen_reward": 1.751997537612915,
+  "eval_rejected_reward": 1.3859626102447509,
+  "eval_reward_gap": 0.36603492736816406,
+  "eval_reward_accuracy": 0.75,
+  "diagnosis": "INTENDED"
+}
